@@ -1,0 +1,6 @@
+(executable
+ (name repeatable)
+ (public_name repeatable.exe)
+ (libraries lwt lwt.unix)
+ (preprocess
+  (pps lwt_ppx)))
